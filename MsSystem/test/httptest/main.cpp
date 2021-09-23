@@ -15,7 +15,7 @@ int main()
 	
 	ser.Get("/a",test);
 
-	ser.listen("localhost",8888);
+	ser.listen("0.0.0.0",8888);
 	
 
 	return 0;
